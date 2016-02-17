@@ -1,0 +1,17 @@
+{
+  "name": "projectivemotion/curl-cmd-php",
+  "description": "Convert curl command line into php code.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Amado Martinez",
+      "email": "amado@projectivemotion.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "projectivemotion\\": "src/"
+    }
+  }
+}
