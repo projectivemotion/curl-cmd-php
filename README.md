@@ -2,7 +2,9 @@
 This is a proof of concept php script that converts a curl command line to php code.
 
 ## How it works
-The script it will ask you for a command line string, and an output filename for writing the generated code.
+The script it will ask you for a command line string and an output filename for exporting the generated code.
+The command line arguments must be single-quoted. The command must be contained within one single line!
+It has been coded to work primarily with chrome's copy-as-curl feature.
 
 ## Installation
   [amado@gravedigger private]$ git clone https://github.com/projectivemotion/curl-cmd-php
